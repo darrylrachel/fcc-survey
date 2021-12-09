@@ -85,6 +85,10 @@ textarea {
 .formbutton {
   margin-bottom: 40px;
 }
+button {
+  border-style: none;
+  text-align: center;
+}
 #submit {
   background-color: rgb(14, 139, 139);
   width: 50%;

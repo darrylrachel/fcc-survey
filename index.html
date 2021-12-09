@@ -25,7 +25,7 @@
           <label for="email" id="email-label">Email</label>
           <input id="email" type="email" placeholder="Email, we won't spam you... promise" required>
           <label for="number" id="number-label">Cell Number</label>
-          <input id="number" type="tel" placeholder="Please enter your phone number" maxlength="10" required>
+          <input id="number" type="tel" placeholder="Please enter your phone number" min="7" max="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
           <label for="dropdown">What was your experience?</label>
           <select name="" id="dropdown">
             <option value="good">Good</option>
@@ -56,7 +56,7 @@
              <textarea name="comments" id="comments" cols="45" rows="10">we wanna hear from you...</textarea>
            </div>
            <div class="formbutton">
-             <p id="submit">Submit</p>
+             <button id="submit">submit</button>
            </div>
         </form>
       </div>
